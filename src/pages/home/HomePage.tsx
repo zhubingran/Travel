@@ -17,18 +17,18 @@ export class HomePage extends React.Component {
     render() {
         return (
             <>
-                <Header></Header>
+                <Header />
                 {/* 页面内容 content */}
                 <div className={styles['page-content']}>
                     <Row style={{ marginTop: 20 }}>
                         <Col span={6}>
                             <div>
-                                <SideMenu></SideMenu>
+                                <SideMenu />
                             </div>
                         </Col>
                         <Col span={18}>
                             <div>
-                                <Carousel></Carousel>
+                                <Carousel />
                             </div>
                         </Col>
                     </Row>
@@ -61,7 +61,7 @@ export class HomePage extends React.Component {
                         products={productList3}
                     ></ProductCollection>
                 </div>
-                <Footer></Footer>
+                <Footer />
             </>
         )
     }
